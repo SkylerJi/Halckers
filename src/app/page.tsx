@@ -378,6 +378,51 @@ export default function Home() {
             Lovers by choice
           </div>
           <div className = "flex flex-row max-w-full overflow-x-auto space-x-3">
+          <Image src = "/assets/images/Gay7.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
+                    <Image src = "/assets/images/Gay8.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
+                    <Image src = "/assets/images/Gay9.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
+                    <Image src = "/assets/images/Gay10.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
+                    <Image src = "/assets/images/Gay11.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
+                    <Image src = "/assets/images/Gay12.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
+                    <Image src = "/assets/images/Gay13.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
+                    <Image src = "/assets/images/Gay14.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
+                     <Image src = "/assets/images/Gay15.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
 
           <Image src = "/assets/images/Gay.png"
                     width={500}
