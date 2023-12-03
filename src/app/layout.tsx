@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '../../components/navbar'
 import Link from 'next/link'
+import HackedText from '../../components/HackedText'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -24,9 +25,13 @@ export default function RootLayout({
         <main>
         <div className='fixed top-0 bg-white w-full z-50 shadow-2xl'>
           <nav className="flex justify-between items-center bg-white p-4 w-full">
+            <div>
             <Link href="/" passHref>
-              <span className="text-xl font-bold cursor-pointer">Halckers</span>
+              <HackedText />
             </Link>
+
+            </div>
+            
             <div className="flex justify-end space-x-16 mx-16 flex-grow">
               <Link href="/mission" passHref>
                 <span className="text-lg cursor-pointer">Mission</span>

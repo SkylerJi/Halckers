@@ -9,7 +9,7 @@ export default function Home() {
   return (
     
 
-    <div className = "bg-black">
+    <div className = "bg-black overflow-x-hidden">
        
       <div>
       <div>
@@ -23,11 +23,12 @@ export default function Home() {
           alt="HomieSexual"
       />
 
-      <div className="absolute w-4/12 rounded-xl text-center pt-1 pb-3" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'white' }}>
-        <p className={`text-9xl font-black ${styles.animatedText}`}>
-            Halckers
+      <div className="absolute rounded-xl text-center pt-1 pb-3 px-4" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'white' }}>
+        <p className={`text-8xl md:text-9xl font-black ${styles.animatedText}`}>
+          Halckers
         </p>
       </div>
+
     </div>
 
 
@@ -39,7 +40,7 @@ export default function Home() {
         background: "radial-gradient(violet, indigo, blue, green, yellow, orange, red, black 50%)",
         backgroundSize: "100%",
         zIndex: -1,
-        animation: "pulse 5s infinite"
+        animation: "pulse 3s infinite"
       }}
       
       className="mx-0 mt-0 w-screen flex flex-row opacity justify-center items-center font-black text-9xl text-white m-10"
