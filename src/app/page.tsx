@@ -1,34 +1,62 @@
+"use client"
 import Image from 'next/image'
+import Head from 'next/head';
+import React from "react"
+import styles from './styles.module.css';
+
 
 export default function Home() {
   return (
-    <div className = "bg-black">
+    
+
+    <div className = "bg-black overflow-x-hidden">
+       
       <div>
-      <div className = "flex justify-center items-center text-xl w-full h-4/12">
+      <div>
+      
+      <div className="relative w-full h-screen flex justify-center items-center">
+      {/* Image */}
+      <Image 
+          src="/assets/images/First.jpg"
+          layout='fill'
+          objectFit='cover'
+          alt="HomieSexual"
+      />
 
-
-        <Image src = "/assets/images/Hottub_night.png"
-                    width={10000}
-                    height={10000}
-          
-                    alt="HomieSexual"/>
-
+      <div className="absolute rounded-xl text-center pt-1 pb-1 px-4" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'white' }}>
+        <p className={`text-7xl md:text-9xl font-mono font-black ${styles.animatedText}`}>
+          HALCKERS
+        </p>
       </div>
-      <div style = {{}} className = "flex flex-row justify-center items-center text-9xl text-white m-10">
-        we are
+
+    </div>
+
+
+   
       </div>
+      <div
+      style={{
+        minHeight: "100vh",
+        background: "radial-gradient(violet, indigo, blue, green, yellow, orange, red, black 50%)",
+        backgroundSize: "100%",
+        zIndex: -1,
+        animation: "pulse 3s infinite"
+      }}
+      
+      className="mx-0 mt-0 w-screen flex flex-row opacity justify-center items-center font-black text-6xl md:text-9xl text-white m-10 font-mono"
+    >
+      WE ARE
+    </div>
+
       <div className = "flex flex-col justify-center items-center text-white text-5xl">
         <div>
-        <div className = "flex flex-row justify-center mb-2 text-5xl">
+        <div className = "flex flex-row justify-center mb-8 text-5xl md:text-8xl font-bold font-mono">
             Doctors
 
           </div>
-          <div className = "flex flex-row max-w-full overflow-x-auto">
-          <Image src = "/assets/images/Doctor_Adi.png"
-                    width={200}
-                    height={100}
+          <div className = "flex flex-row max-w-full overflow-x-auto no-scrollbar space-x-3">
           
-                    alt="Adi"/>
+  
           <Image src = "/assets/images/Doctor_Praveen.png"
                     width={200}
                     height={100}
@@ -42,21 +70,25 @@ export default function Home() {
           <Image src = "/assets/images/Doctor_Sid.png"
                     width={200}
                     height={100}
+                    objectFit = "cover"
           
                     alt="Sid"/>
                     <Image src = "/assets/images/Doctor_Sid2.png"
                     width={200}
                     height={100}
+                    objectFit = "cover"
           
                     alt="Sid"/>
                     <Image src = "/assets/images/Doctor_Sid3.png"
                     width={200}
                     height={100}
+                    objectFit = "cover"
           
                     alt="Sid"/>
                     <Image src = "/assets/images/Doctor_Sid4.png"
                     width={200}
                     height={100}
+                    objectFit = "cover"
           
                     alt="Sid"/>
                     <Image src = "/assets/images/Doctor_Sid5.png"
@@ -118,11 +150,11 @@ export default function Home() {
         </div>
      
         <div>
-        <div className = "flex flex-row justify-center mt-10 mb-2 text-5xl">
+        <div className = "flex flex-row justify-center mt-10 mb-8 text-5xl md:text-8xl font-bold font-mono">
             Engineers
 
           </div>
-        <div className = "flex flex-row max-w-full overflow-x-auto">
+        <div className = "flex flex-row max-w-full overflow-x-auto space-x-3">
         <Image src = "/assets/images/Engineer_Shane.png"
                     width={200}
                     height={100}
@@ -211,7 +243,7 @@ export default function Home() {
           
                     alt="Kesava"/>
 
-<Image src = "/assets/images/Engineer_Kesav3.png"
+<Image src = "/assets/images/Engineer_Kesava3.png"
                     width={200}
                     height={100}
           
@@ -247,12 +279,12 @@ export default function Home() {
         </div>
       
         <div>
-          <div className = "flex flex-row text-5xl mt-10 mb-2 justify-center">
+          <div className = "flex flex-row mt-10 mb-8 text-4xl md:text-8xl font-bold font-mono justify-center items-center space-x-3">
             Financial Analysts, Lawyers, Global Ambassadors
 
           </div>
        
-        <div className = "flex flex-row max-w-full overflow-x-auto">
+        <div className = "flex flex-row max-w-full overflow-x-auto space-x-3">
         <Image src = "/assets/images/Finance_Dean.png"
                     width={200}
                     height={100}
@@ -345,11 +377,11 @@ export default function Home() {
         </div>
 
         <div>
-        <div className = "flex flex-row text-5xl mt-10 mb-2 justify-center">
+        <div className = "flex flex-row  text-5xl md:text-8xl font-mono font-bold mt-32 mb-12 justify-center">
             Aquaintances by chance
           </div>
-          <div className = "flex flex-row max-w-full overflow-x-auto space-x-3">
-
+          <div className = "flex flex-row overflow-x-auto space-x-3">
+          
           <Image src = "/assets/images/Cpat.png"
                     width={500}
                     height={100}
@@ -366,19 +398,23 @@ export default function Home() {
                     height={100}
           
                     alt="Halckers"/>
-          
-
           </div>
          
 
         </div>
 
         <div>
-        <div className = "flex flex-row text-5xl mt-10 mb-2 justify-center">
-            Lovers by choice
-          </div>
+        <div className="flex flex-row text-7xl md:text-9xl font-black font-dancing-script mt-24 mb-12 justify-center rainbow-text">
+          Lovers by choice
+        </div>
+
           <div className = "flex flex-row max-w-full overflow-x-auto space-x-3">
           <Image src = "/assets/images/Gay7.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
+                     <Image src = "/assets/images/Gay11.png"
                     width={500}
                     height={100}
           
@@ -398,11 +434,7 @@ export default function Home() {
                     height={100}
           
                     alt="Gay"/>
-                    <Image src = "/assets/images/Gay11.png"
-                    width={500}
-                    height={100}
-          
-                    alt="Gay"/>
+                   
                     <Image src = "/assets/images/Gay12.png"
                     width={500}
                     height={100}
@@ -418,11 +450,7 @@ export default function Home() {
                     height={100}
           
                     alt="Gay"/>
-                     <Image src = "/assets/images/Gay15.png"
-                    width={500}
-                    height={100}
-          
-                    alt="Gay"/>
+                  
 
           <Image src = "/assets/images/Gay.png"
                     width={500}
@@ -463,18 +491,15 @@ export default function Home() {
 
         </div>
 
-   
-   
 
       </div>
-
 
      
     </div>
 
       
     </div>
-   
+
   )
 }
  

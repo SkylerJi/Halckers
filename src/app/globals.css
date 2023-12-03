@@ -2,3 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    @variants responsive {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    }
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      background-size: 100%;
+      opacity: 1;
+      background-position: center;
+    }
+    50% {
+      background-size: 110%;
+      opacity: 0.6;
+      background-position: center;
+    }
+  }
+
+  .rainbow-text {
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;  /* Makes the text color transparent so the gradient shows through */
+  }
+  
+  
