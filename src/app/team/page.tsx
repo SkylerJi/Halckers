@@ -25,10 +25,7 @@ export default function team(){
                 Joe Rosenberg
 
             </div>
-            <div className = "bg-slate-300">
-                Justin Xu
-
-            </div>
+           
             <div className = "bg-slate-300">
                 Kesava Viswanadha
 

@@ -62,11 +62,7 @@ export default function Home() {
                     height={100}
           
                     alt="Praveen"/>
-          <Image src = "/assets/images/Doctor_Justin.png"
-                    width={200}
-                    height={100}
           
-                    alt="Justin"/>
           <Image src = "/assets/images/Doctor_Sid.png"
                     width={200}
                     height={100}
@@ -121,11 +117,7 @@ export default function Home() {
                     height={100}
           
                     alt="Sid"/>
-                    <Image src = "/assets/images/Doctor_Justin2.png"
-                    width={200}
-                    height={100}
-          
-                    alt="Sid"/>
+                 
                     <Image src = "/assets/images/Doctor_Praveen2.png"
                     width={200}
                     height={100}
