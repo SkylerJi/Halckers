@@ -23,9 +23,9 @@ export default function Home() {
           alt="HomieSexual"
       />
 
-      <div className="absolute rounded-xl text-center pt-1 pb-3 px-4" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'white' }}>
-        <p className={`text-8xl md:text-9xl font-black ${styles.animatedText}`}>
-          Halckers
+      <div className="absolute rounded-xl text-center pt-1 pb-1 px-4" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'white' }}>
+        <p className={`text-7xl md:text-9xl font-mono font-black ${styles.animatedText}`}>
+          HALCKERS
         </p>
       </div>
 
@@ -43,14 +43,14 @@ export default function Home() {
         animation: "pulse 3s infinite"
       }}
       
-      className="mx-0 mt-0 w-screen flex flex-row opacity justify-center items-center font-black text-9xl text-white m-10"
+      className="mx-0 mt-0 w-screen flex flex-row opacity justify-center items-center font-black text-9xl text-white m-10 font-mono"
     >
-      we are
+      WE ARE
     </div>
 
       <div className = "flex flex-col justify-center items-center text-white text-5xl">
         <div>
-        <div className = "flex flex-row justify-center mb-8 text-8xl font-bold">
+        <div className = "flex flex-row justify-center mb-8 text-5xl md:text-8xl font-bold font-mono">
             Doctors
 
           </div>
@@ -150,7 +150,7 @@ export default function Home() {
         </div>
      
         <div>
-        <div className = "flex flex-row justify-center mt-10 mb-8 text-8xl font-bold">
+        <div className = "flex flex-row justify-center mt-10 mb-8 text-5xl md:text-8xl font-bold font-mono">
             Engineers
 
           </div>
@@ -279,7 +279,7 @@ export default function Home() {
         </div>
       
         <div>
-          <div className = "flex flex-row mt-10 mb-8 text-8xl font-bold justify-center items-center space-x-3">
+          <div className = "flex flex-row mt-10 mb-8 text-4xl md:text-8xl font-bold font-mono justify-center items-center space-x-3">
             Financial Analysts, Lawyers, Global Ambassadors
 
           </div>
@@ -377,7 +377,7 @@ export default function Home() {
         </div>
 
         <div>
-        <div className = "flex flex-row text-8xl font-black mt-32 mb-12 justify-center">
+        <div className = "flex flex-row  text-5xl md:text-8xl font-mono font-bold mt-32 mb-12 justify-center">
             Aquaintances by chance
           </div>
           <div className = "flex flex-row overflow-x-auto space-x-3">
@@ -404,7 +404,7 @@ export default function Home() {
         </div>
 
         <div>
-        <div className="flex flex-row text-9xl font-black mt-24 mb-12 justify-center rainbow-text">
+        <div className="flex flex-row text-7xl md:text-9xl font-black font-dancing-script mt-24 mb-12 justify-center rainbow-text">
           Lovers by choice
         </div>
 

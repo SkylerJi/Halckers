@@ -34,10 +34,10 @@ export default function RootLayout({
             
             <div className="flex justify-end space-x-16 mx-16 flex-grow">
               <Link href="/mission" passHref>
-                <span className="text-lg cursor-pointer">Mission</span>
+                <span className="text-lg cursor-pointer font-mono">Mission</span>
               </Link>
               <Link href="/team" passHref>
-                <span className="text-lg cursor-pointer">Team</span>
+                <span className="text-lg cursor-pointer font-mono">Team</span>
               </Link>
             </div>
           </nav>
