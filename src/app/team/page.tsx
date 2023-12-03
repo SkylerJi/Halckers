@@ -30,7 +30,7 @@ export default function team(){
 
             </div>
             <div className = "bg-slate-300">
-                Kesava Visanadha
+                Kesava Viswanadha
 
             </div>
             <div className = "bg-slate-300">
