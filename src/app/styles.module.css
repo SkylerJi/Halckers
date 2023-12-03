@@ -1,0 +1,17 @@
+/* styles.module.css */
+@keyframes rainbowAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .animatedText {
+    animation: rainbowAnimation 10s ease infinite;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+
+  
