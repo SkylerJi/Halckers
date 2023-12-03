@@ -43,7 +43,7 @@ export default function Home() {
         animation: "pulse 3s infinite"
       }}
       
-      className="mx-0 mt-0 w-screen flex flex-row opacity justify-center items-center font-black text-9xl text-white m-10 font-mono"
+      className="mx-0 mt-0 w-screen flex flex-row opacity justify-center items-center font-black text-6xl md:text-9xl text-white m-10 font-mono"
     >
       WE ARE
     </div>
@@ -414,6 +414,11 @@ export default function Home() {
                     height={100}
           
                     alt="Gay"/>
+                     <Image src = "/assets/images/Gay11.png"
+                    width={500}
+                    height={100}
+          
+                    alt="Gay"/>
                     <Image src = "/assets/images/Gay8.png"
                     width={500}
                     height={100}
@@ -429,11 +434,7 @@ export default function Home() {
                     height={100}
           
                     alt="Gay"/>
-                    <Image src = "/assets/images/Gay11.png"
-                    width={500}
-                    height={100}
-          
-                    alt="Gay"/>
+                   
                     <Image src = "/assets/images/Gay12.png"
                     width={500}
                     height={100}
