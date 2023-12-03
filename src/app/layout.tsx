@@ -22,7 +22,21 @@ export default function RootLayout({
          <body className={inter.className}>
     
         <main>
-          <Navbar/>
+        <div className='fixed top-0 bg-white w-full z-50 shadow-2xl'>
+          <nav className="flex justify-between items-center bg-white p-4 w-full">
+            <Link href="/" passHref>
+              <span className="text-xl font-bold cursor-pointer">Halckers</span>
+            </Link>
+            <div className="flex justify-end space-x-16 mx-16 flex-grow">
+              <Link href="/mission" passHref>
+                <span className="text-lg cursor-pointer">Mission</span>
+              </Link>
+              <Link href="/team" passHref>
+                <span className="text-lg cursor-pointer">Team</span>
+              </Link>
+            </div>
+          </nav>
+        </div>
           {children}
         </main>
       </body>
