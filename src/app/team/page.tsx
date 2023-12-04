@@ -230,7 +230,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief South-Indian Officer, Yusuf identifies as South Indian(NOT NORTH) despite his Egyptian background. Truly inspiring. 
+                As the Chief South-Indian Officer, the Indian Halckers accept him as South Indian(NOT NORTH) despite his Egyptian heritage.
               
             </div>
           </div>
