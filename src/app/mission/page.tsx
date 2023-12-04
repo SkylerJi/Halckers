@@ -34,13 +34,13 @@ export default function Mission() {
           Founded in 2017, we became <span className="font-bold">Cyberpatriots. </span>
           In the contest to save Missouri, we took home gold. 
           <div className="my-12"></div>
-          But that wasn't enough to <span className="line-through">end</span> cyber crime. 
+          But that wasn&apos;t enough to <span className="line-through">end</span> cyber crime. 
           We took our talents internationally, <span className="font-bold">saving</span> the Internet of Things at the highest competitive level. 
         </span>
       </div>
 
       {/* Content Block 3 */}
-      <div className="z-10 w-screen h-screen py-24 px-12 text-center leading-10 bg-white text-white bg-transparent">
+      <div className="z-10 w-screen h-screen mb-12 py-24 px-12 text-center leading-10 bg-white text-white bg-transparent">
       <div className="top-1/2 left-0 w-full border-t-2  border-white"></div>
         <h1 className="text-5xl md:text-9xl font-mono my-16">
           What we do
