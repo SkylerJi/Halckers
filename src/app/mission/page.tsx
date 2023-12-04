@@ -1,9 +1,13 @@
 import Image from "next/image"
 import Link from "next/link"
+import BackgroundVideo from '../../../components/bgVid1';
+
 export default function mission(){
     return (
-        <div className="flex flex-col items-center justify-center">
-       <div className = "w-screen h-screen p-24 items-center text-center leading-10">
+        <div className="relative flex flex-col items-center justify-center">
+            <BackgroundVideo />
+       <div className = "absolute inset-0 w-screen h-screen p-24 items-center text-center leading-10">
+     
         <h1 className = "text-5xl md:text-9xl font-mono my-16">Who we are</h1>
         <span className = "font-mono text-3xl md:text-5xl">
           We are an <span className="font-black">elite</span> group of cyber warriors dedicated to <span className="font-black">protecting</span> the innocent and <span className="font-black">defending</span> the ether.
