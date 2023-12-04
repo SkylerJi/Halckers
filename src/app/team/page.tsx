@@ -190,7 +190,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief Handsome Officer, Skyler is dashing and charismatic. His greatest weakness the pain it brings him breaking his many suitors&apos;s hearts. He left his fly down.
+                As the Chief Handsome Officer, Skyler is dashing and charismatic. His greatest weakness is the pain it brings him breaking his many suitors&apos;s hearts. He left his fly down.
               
             </div>
           </div>
