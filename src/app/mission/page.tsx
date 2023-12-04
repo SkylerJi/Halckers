@@ -38,7 +38,7 @@ export default function mission(){
 
         </div>
         <span className="font mono text-xl md:text-5xl">
-            Through our <span className="font-bold">state-of-the-art</span> Integrated Mass Ecosystem Service Spanning Across Global Economies, or iMessage system, we are able to communicate effectively, efficiently, and <span className="font-bold">erratically</span>.
+            Through our <span className="font-bold">state-of-the-art</span> Integrated Mass Ecosystem Service Spanning Across Global Economies, or iMessage system, we are able to communicate effectively, efficiently, and <span className="font-bold">erratically</span>. Gotham, nay, the world <span className="font-bold">needs</span> us.
         </span>
 
       
