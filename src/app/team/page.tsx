@@ -12,7 +12,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief Monkey Officer, Adi is a monkey.
+                As the Chief One-Piece Officer, A D. Patro knocks out all with his conqueror&apos;s haki, although some experts(haters imo) contend that it&apos;s his stench. 
               
             </div>
           </div>
@@ -25,14 +25,14 @@ export default function team(){
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
             <p className="text-3xl md:text-5xl font-mono font-semibold">Adi</p>
-            <p className="text-xl font-mono">CMO</p>
+            <p className="text-xl font-mono">COO</p>
           </div>
         </div>
             
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief Footbol Officer, Ali has a soft/hard spot for Ronaldo.
+                As the Chief Footbol Officer, Ali's loyalty and heart lie with Ronaldo.
               
             </div>
           </div>
