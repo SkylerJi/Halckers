@@ -81,12 +81,7 @@ export default function Home() {
                     objectFit = "cover"
           
                     alt="Sid"/>
-                    <Image src = "/assets/images/Doctor_Sid4.png"
-                    width={200}
-                    height={100}
-                    objectFit = "cover"
-          
-                    alt="Sid"/>
+                 
                     <Image src = "/assets/images/Doctor_Sid5.png"
                     width={200}
                     height={100}
@@ -158,11 +153,7 @@ export default function Home() {
                     height={100}
           
                     alt="Shane"/>
-                       <Image src = "/assets/images/Engineer_Shane4.png"
-                    width={200}
-                    height={100}
-          
-                    alt="Shane"/>
+                   
                        <Image src = "/assets/images/Engineer_Shane5.png"
                     width={200}
                     height={100}
