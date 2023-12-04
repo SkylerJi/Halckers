@@ -24,7 +24,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Adi</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Adi</p>
             <p className="text-xl font-mono">CMO</p>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Ali</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Ali</p>
             <p className="text-xl font-mono">CFO</p>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Dean</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Dean</p>
             <p className="text-xl font-mono">CRO</p>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Dhruv</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Dhruv</p>
             <p className="text-xl font-mono">CCO</p>
           </div>
         </div>
@@ -102,7 +102,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Joe</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Joe</p>
             <p className="text-xl font-mono">CIO</p>
           </div>
         </div>
@@ -122,7 +122,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Kesava</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Kesava</p>
             <p className="text-xl font-mono">CLO</p>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Praveen</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Praveen</p>
             <p className="text-xl font-mono">CAO</p>
           </div>
         </div>
@@ -162,7 +162,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Sid</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Sid</p>
             <p className="text-xl font-mono">CNO</p>
           </div>
         </div>
@@ -182,7 +182,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Shane</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Shane</p>
             <p className="text-xl font-mono">CBO</p>
           </div>
         </div>
@@ -202,7 +202,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Skyler</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Skyler</p>
             <p className="text-xl font-mono">CHO</p>
           </div>
         </div>
@@ -222,7 +222,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Sri</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Sri</p>
             <p className="text-xl font-mono">CEO</p>
           </div>
         </div>
@@ -242,7 +242,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-5xl font-mono font-semibold">Yusuf</p>
+            <p className="text-3xl md:text-5xl font-mono font-semibold">Yusuf</p>
             <p className="text-xl font-mono">CSO</p>
           </div>
         </div>
