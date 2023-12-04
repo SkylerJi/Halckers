@@ -170,7 +170,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief Bot Officer, the Shane Brain runs on the world's most advanced Neural Net. His computer vision is what Tesla strives to acheive. Unfortunately, his runtime is N^N.
+                As the Chief Bot Officer, the Shane Brain runs on the world&apos;s most advanced Neural Net. His computer vision is what Tesla strives to acheive. Unfortunately, his runtime is N^N.
               
             </div>
           </div>
@@ -190,7 +190,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief Handsome Officer, Skyler is dashing and charismatic. His greatest weakness is how much it pains him to break his many suitors's hearts...This would be true but he left his fly down during his photoshoot.
+                As the Chief Handsome Officer, Skyler is dashing and charismatic. His greatest weakness is how much it pains him to break his many suitors&apos;s hearts...This would be true but he left his fly down during his photoshoot.
               
             </div>
           </div>
@@ -210,7 +210,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief Executive Officer, Sri is the founder of the Halckers. Unfortunately, we don't respect him because no woman has ever been within 100 meters of him.
+                As the Chief Executive Officer, Sri is the founder of the Halckers. Unfortunately, we don&apos;t respect him because no woman has ever been within 100 meters of him.
               
             </div>
           </div>

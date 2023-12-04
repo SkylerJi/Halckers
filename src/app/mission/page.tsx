@@ -17,7 +17,7 @@ export default function mission(){
         <span className = "font mono text-xl md:text-3xl">
           Founded in 2016, we took on the role of cyberpatriots. 
           In the contest to save Missouri, we took home gold. 
-          But that wasn't enough to end cyber crime. 
+          But that wasn&apos;t enough to end cyber crime. 
           We took our talents internationally, saving the Internet of Things at the highest competitive level. 
         </span>
 
