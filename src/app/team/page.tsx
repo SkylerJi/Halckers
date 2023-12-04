@@ -190,7 +190,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief Handsome Officer, Skyler is dashing and charismatic. His greatest weakness is how much it pains him to break his many suitors&apos;s hearts...This would be true but he left his fly down during his photoshoot.
+                As the Chief Handsome Officer, Skyler is dashing and charismatic. His greatest weakness is how much it pains him to break his many suitors&apos;s hearts. He left his fly down.
               
             </div>
           </div>
@@ -230,7 +230,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief South-Indian Officer, Yusuf identifies as South Indian despite his Egyptian background. Truly inspiring. It is important to note that he DOES NOT identify as North Indian. Mashallah.
+                As the Chief South-Indian Officer, Yusuf identifies as South Indian(NOT NORTH) despite his Egyptian background. Truly inspiring. 
               
             </div>
           </div>
