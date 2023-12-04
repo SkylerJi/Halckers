@@ -23,7 +23,7 @@ export default function mission(){
 
        </div>
       
-       <div className = "w-screen h-screen bg-white text-black items-center text-center leading-10 p-12">
+       <div className = "w-screen h-screen bg-white text-black items-center text-center leading-10 p-24">
         <h1 className = "text-5xl md:text-9xl font-mono my-16">
           What we do
         </h1>
