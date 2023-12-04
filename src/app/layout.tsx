@@ -32,7 +32,7 @@ export default function RootLayout({
 
             </div>
             
-            <div className="flex justify-end space-x-8 md:space-x-16 ml-14 mr-16 flex-grow">
+            <div className="flex justify-end space-x-4 md:space-x-16 ml-14 mr-16 flex-grow">
               <Link href="/mission" passHref>
                 <span className="text-lg cursor-pointer font-mono">Mission</span>
               </Link>
