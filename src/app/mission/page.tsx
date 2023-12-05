@@ -8,7 +8,7 @@ export default function Mission() {
     <div className="relative flex flex-col items-center justify-center overflow-hidden">
       {/* Background Video */}
       <div className="fixed top-0 left-0 w-full h-screen z-0">
-      <video autoPlay muted loop id="backgroundVideo" className="w-full h-full object-cover">
+      <video autoPlay muted loop playsInline id="backgroundVideo" className="w-full h-full object-cover">
       
       <source src="/assets/images/Airstrike_T02.mp4" type="video/mp4" />
 
