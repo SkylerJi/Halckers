@@ -37,4 +37,6 @@
     color: transparent;  /* Makes the text color transparent so the gradient shows through */
   }
   
- 
+  .translate-y-10percent {
+    transform: translateY(10%);
+  }
