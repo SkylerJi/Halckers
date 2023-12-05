@@ -7,8 +7,15 @@ export default function Mission() {
   return (
     <div className="relative flex flex-col items-center justify-center overflow-hidden">
       {/* Background Video */}
-      <div className="absolute top-0 left-0 w-full h-full z-0">
-        <BackgroundVideo />
+      <div className="fixed top-0 left-0 w-full h-screen z-0">
+      <video autoPlay muted loop id="backgroundVideo" className="w-full h-full object-cover">
+      
+      <source src="/assets/images/Airstrike_T02.mp4" type="video/mp4" />
+
+  
+   
+    Your browser does not support the video tag.
+  </video>
         <div className="absolute inset-0 bg-black opacity-70"></div>
       </div>
 
@@ -40,7 +47,7 @@ export default function Mission() {
       </div>
 
       {/* Content Block 3 */}
-      <div className="z-10 w-screen h-screen mb-12 py-24 px-12 text-center leading-10 bg-white text-white bg-transparent">
+      <div className="z-10 w-screen h-screen mb-12 py-24 px-12 text-center leading-10 text-white bg-transparent">
       <div className="top-1/2 left-0 w-full border-t-2  border-white"></div>
         <h1 className="text-5xl md:text-9xl font-mono my-16">
           What we do
