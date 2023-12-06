@@ -24,7 +24,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Adi</p>
+            <p className="text-3xl md:text-3xl xl:text-5xl font-mono font-semibold">Adi</p>
             <p className="text-xl font-mono">COO</p>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Ali</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Ali</p>
             <p className="text-xl font-mono">CFO</p>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Dean</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Dean</p>
             <p className="text-xl font-mono">CRO</p>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Dhruv</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Dhruv</p>
             <p className="text-xl font-mono">CCO</p>
           </div>
         </div>
@@ -102,14 +102,14 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Joe</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Joe</p>
             <p className="text-xl font-mono">CIO</p>
           </div>
         </div>
            
            <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
-            <div className="px-4 py-2 font-mono text-sm lg:text-base">
+            <div className="px-4 py-2 font-mono text-sm xl::text-base">
                 As the Chief Looksmaxxing Officer, Kesava boasts a slight-positive canthal tilt and straight full anteface. His high-set zygomatic bones contrast his hunter eyes (darktriadmaxxed).
               
             </div>
@@ -122,7 +122,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Kesava</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Kesava</p>
             <p className="text-xl font-mono">CLO</p>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Praveen</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Praveen</p>
             <p className="text-xl font-mono">CAO</p>
           </div>
         </div>
@@ -162,14 +162,14 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Sid</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Sid</p>
             <p className="text-xl font-mono">CNO</p>
           </div>
         </div>
 
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
-            <div className="px-4 py-2 font-mono text-sm md:text-base">
+            <div className="px-4 py-2 font-mono text-sm xl:text-base">
                 As the Chief Bot Officer, the Shane Brain runs on the world&apos;s most advanced Neural Net. His computer vision is what Tesla strives to acheive. CAVEAT: his runtime is max(Tree(N), BB-n).
               
             </div>
@@ -182,7 +182,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Shane</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Shane</p>
             <p className="text-xl font-mono">CBO</p>
           </div>
         </div>
@@ -202,7 +202,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Skyler</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Skyler</p>
             <p className="text-xl font-mono">CHO</p>
           </div>
         </div>
@@ -222,7 +222,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Sri</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Sri</p>
             <p className="text-xl font-mono">CEO</p>
           </div>
         </div>
@@ -242,7 +242,7 @@ export default function team(){
             style={{objectFit: "cover"}}
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-mono font-semibold">Yusuf</p>
+            <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Yusuf</p>
             <p className="text-xl font-mono">CSO</p>
           </div>
         </div>
