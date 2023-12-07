@@ -379,22 +379,22 @@ export default function Home() {
         </div>
 
           <div className = "flex flex-row max-w-full overflow-x-auto space-x-3">
-          <Image src = "/assets/images/halckers7.png"
+          <Image src = "/assets/images/Halckers7.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
-                     <Image src = "/assets/images/halckers11.png"
+                     <Image src = "/assets/images/Halckers11.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
-                    <Image src = "/assets/images/halckers8.png"
+                    <Image src = "/assets/images/Halckers8.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
-                    <Image src = "/assets/images/halckers9.png"
+                    <Image src = "/assets/images/Halckers9.png"
                     width={500}
                     height={100}
           
@@ -405,50 +405,50 @@ export default function Home() {
           
                     alt="halckers"/>
                    
-                    <Image src = "/assets/images/halckers12.png"
+                    <Image src = "/assets/images/Halckers12.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
-                    <Image src = "/assets/images/halckers13.png"
+                    <Image src = "/assets/images/Halckers13.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
-                    <Image src = "/assets/images/halckers14.png"
+                    <Image src = "/assets/images/Halckers14.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
                   
 
-          <Image src = "/assets/images/halckers.png"
+          <Image src = "/assets/images/Halckers.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
-          <Image src = "/assets/images/halckers2.png"
+          <Image src = "/assets/images/Halckers2.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
 
-          <Image src = "/assets/images/halckers3.png"
+          <Image src = "/assets/images/Halckers3.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
-               <Image src = "/assets/images/halckers4.png"
+               <Image src = "/assets/images/Halckers4.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
-             <Image src = "/assets/images/halckers5.png"
+             <Image src = "/assets/images/Halckers5.png"
                     width={500}
                     height={100}
           
                     alt="halckers"/>
-             <Image src = "/assets/images/halckers6.png"
+             <Image src = "/assets/images/Halckers6.png"
                     width={500}
                     height={100}
           
