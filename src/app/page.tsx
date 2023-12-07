@@ -378,8 +378,8 @@ export default function Home() {
         </div>
 
         <div>
-        <div className="flex flex-row text-7xl md:text-9xl text-center font-black font-dancing-script mt-24 mb-12 justify-center rainbow-text">
-          Lovers by choice
+        <div className="flex flex-row text-7xl md:text-9xl text-center font-black font-dancing-script mt-24 mb-12 justify-center">
+          Halckers by choice
         </div>
 
           <div className = "flex flex-row max-w-full overflow-x-auto space-x-3">
