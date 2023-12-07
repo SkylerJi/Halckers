@@ -310,11 +310,7 @@ export default function Home() {
                     height={100}
           
                     alt="Skyler"/>
-                      <Image src = "/assets/images/Finance_Skyler4.png"
-                    width={200}
-                    height={100}
-          
-                    alt="Skyler"/>
+                     
 
           <Image src = "/assets/images/Lawyer_Yusuf.png"
                     width={200}
