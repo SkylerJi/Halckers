@@ -379,80 +379,80 @@ export default function Home() {
         </div>
 
           <div className = "flex flex-row max-w-full overflow-x-auto space-x-3">
-          <Image src = "/assets/images/Gay7.png"
+          <Image src = "/assets/images/halckers7.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-                     <Image src = "/assets/images/Gay11.png"
+                    alt="halckers"/>
+                     <Image src = "/assets/images/halckers11.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-                    <Image src = "/assets/images/Gay8.png"
+                    alt="halckers"/>
+                    <Image src = "/assets/images/halckers8.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-                    <Image src = "/assets/images/Gay9.png"
+                    alt="halckers"/>
+                    <Image src = "/assets/images/halckers9.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-                    <Image src = "/assets/images/Gay10.png"
+                    alt="halckers"/>
+                    <Image src = "/assets/images/halckers10.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
+                    alt="halckers"/>
                    
-                    <Image src = "/assets/images/Gay12.png"
+                    <Image src = "/assets/images/halckers12.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-                    <Image src = "/assets/images/Gay13.png"
+                    alt="halckers"/>
+                    <Image src = "/assets/images/halckers13.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-                    <Image src = "/assets/images/Gay14.png"
+                    alt="halckers"/>
+                    <Image src = "/assets/images/halckers14.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
+                    alt="halckers"/>
                   
 
-          <Image src = "/assets/images/Gay.png"
+          <Image src = "/assets/images/halckers.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-          <Image src = "/assets/images/Gay2.png"
+                    alt="halckers"/>
+          <Image src = "/assets/images/halckers2.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
+                    alt="halckers"/>
 
-          <Image src = "/assets/images/Gay3.png"
+          <Image src = "/assets/images/halckers3.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-               <Image src = "/assets/images/Gay4.png"
+                    alt="halckers"/>
+               <Image src = "/assets/images/halckers4.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-             <Image src = "/assets/images/Gay5.png"
+                    alt="halckers"/>
+             <Image src = "/assets/images/halckers5.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
-             <Image src = "/assets/images/Gay6.png"
+                    alt="halckers"/>
+             <Image src = "/assets/images/halckers6.png"
                     width={500}
                     height={100}
           
-                    alt="Gay"/>
+                    alt="halckers"/>
           
           
 
