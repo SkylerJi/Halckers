@@ -170,7 +170,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono text-sm xl:text-base">
-                As the Chief Bot Officer, the Shane Brain runs on the world&apos;s most advanced Neural Net. His computer vision is what Tesla strives to acheive. CAVEAT: his runtime is max(Tree(N), BB-n).
+                As the Chief Bot Officer, the Shane Brain runs on the world&apos;s most advanced Neural Net. His computer vision is what Tesla strives to acheive. CAVEAT: his runtime is Rayo(N).
               
             </div>
           </div>
