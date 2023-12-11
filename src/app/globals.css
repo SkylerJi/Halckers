@@ -40,3 +40,15 @@
   .translate-y-10percent {
     transform: translateY(7%);
   }
+  .translate-effect {
+  
+    transform: translateY(-2px); /* Adjust the value as needed */
+
+    color: #F20089;
+  }
+
+  .translate-effect-2 {
+/* Adjust the value as needed */
+transform: translateX(-4px);
+    color: #0AFFB6;
+  }

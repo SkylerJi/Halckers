@@ -5,6 +5,7 @@ const HackedText: React.FC = () => {
   const [text, setText] = useState('HALCKERS');
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   const targetText = 'HALCKERS';
+  const [isHovered, setIsHovered] = useState(false);
   const h1Ref = useRef<HTMLHeadingElement | null>(null);
 
   useEffect(() => {
@@ -44,13 +45,26 @@ const HackedText: React.FC = () => {
 
   return (
     <div className="flex-shrink-0 max-w-xs">
+      <div className = "relative">
       <h1
         ref={h1Ref}
         data-value={targetText}
-        className="text-black font-mono text-4xl"
+        className={`font-mono text-4xl ${isHovered ? 'translate-effect-2' : ''}`}
       >
         {text}
       </h1>
+      <h1
+        ref={h1Ref}
+        data-value={targetText}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        className={`font-mono text-4xl absolute top-0 left-0 ${isHovered ? 'translate-effect' : ''}`}
+      >
+        {text}
+      </h1>
+
+      </div>
+    
     </div>
   );
 };

@@ -26,7 +26,7 @@ export default function RootLayout({
         <div className='fixed top-0 bg-white w-full z-50 shadow-2xl'>
           <nav className="flex justify-between items-center bg-white p-4 w-full">
             <div>
-            <Link href="/" passHref>
+            <Link href="/">
               <HackedText />
             </Link>
 
