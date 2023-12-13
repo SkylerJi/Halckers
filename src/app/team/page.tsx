@@ -190,7 +190,7 @@ export default function team(){
         <div className="relative h-96 border-8 border-double border-black bg-white overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
             <div className="px-4 py-2 font-mono">
-                As the Chief Handsome Officer, Skyler is dashing and charismatic. His greatest weakness is the pain it brings him to break his many suitors&apos;s hearts. His fly is down.
+                As the Chief Perfect Officer, Skyler is the pinnacle of life. His mere existance inspires all to strive for more. And yes ladies, he is single(shockingly).
               
             </div>
           </div>
@@ -203,7 +203,7 @@ export default function team(){
           />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2">
             <p className="text-3xl md:text-3xl xl::text-5xl font-mono font-semibold">Skyler</p>
-            <p className="text-xl font-mono">CHO</p>
+            <p className="text-xl font-mono">CPO</p>
           </div>
         </div>
 
