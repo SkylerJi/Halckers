@@ -13,7 +13,7 @@ export default function Footer() {
     }
 
     return (
-        <footer className="w-full bg-white p-8" style={{height: "20vh"}}>
+        <footer className="w-full p-8" style={{height: "20vh"}}>
             <div className="flex flex-col md:flex-row w-full justify-between h-full">
                 <div className="logo mb-4 md:mb-0">
                     <HackedText />
