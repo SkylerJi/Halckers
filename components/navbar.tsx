@@ -1,42 +1,58 @@
 "use client"
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import HackedText from './HackedText';
 
 export default function Navbar() {
-  const [opacity, setOpacity] = useState(1);
+  const [visible, setVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => {
-      // Adjust these values as needed
-      const maxScrollValue = 200; // The scroll value at which the navbar reaches its minimum opacity
-      const minOpacity = 0.6; // The minimum opacity value for the navbar
+    const controlNavbar = () => {
+      if (typeof window !== 'undefined') {
+        if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
+          setVisible(false);
+        } else { // if scroll up show the navbar
+          setVisible(true);
+        }
 
-      const newOpacity = Math.max(minOpacity, 1 - window.scrollY / maxScrollValue);
-      setOpacity(newOpacity);
+        // remember current page location to use in the next move
+        setLastScrollY(window.scrollY);
+      }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', controlNavbar);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+      // cleanup function
+      return () => {
+        window.removeEventListener('scroll', controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
 
   return (
-    <div className='fixed top-0 bg-white w-full z-50 shadow-2xl' style={{ opacity }}>
-      <nav className="flex justify-between items-center bg-white p-4 w-full">
-        <Link href="/" passHref>
-          <span className="text-xl font-bold cursor-pointer">Halckers</span>
+    <nav className={`flex justify-between items-center bg-white p-4 w-full fixed top-0 transition-transform duration-300 ${visible ? '' : 'opacity-0'}`}>
+      <div>
+        <Link href="/">
+          <HackedText />
         </Link>
-        <div className="flex justify-end space-x-16 mx-16 flex-grow">
-          <Link href="/mission" passHref>
-            <span className="text-lg cursor-pointer">Mission</span>
-          </Link>
-          <Link href="/team" passHref>
-            <span className="text-lg cursor-pointer">Team</span>
-          </Link>
-        </div>
-      </nav>
-    </div>
+      </div>
+      
+      <div className="flex justify-end space-x-4 md:space-x-16 ml-16 mr-16 flex-grow">
+        <Link href="/mission" passHref>
+          <span className="text-lg cursor-pointer font-mono relative group">
+            Mission
+            <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+          </span>
+        </Link>
+        <Link href="/team" passHref>
+          <span className="text-lg cursor-pointer font-mono relative group">
+            Team
+            <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+          </span>
+        </Link>
+      </div>
+    </nav>
   );
 }

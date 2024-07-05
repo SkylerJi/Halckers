@@ -24,24 +24,10 @@ export default function RootLayout({
     
         <main>
         <div className='fixed top-0 bg-white w-full z-50 shadow-2xl'>
-          <nav className="flex justify-between items-center bg-white p-4 w-full">
-            <div>
-            <Link href="/">
-              <HackedText />
-            </Link>
-
-            </div>
-            
-            <div className="flex justify-end space-x-4 md:space-x-16 ml-16 mr-16 flex-grow">
-              <Link href="/mission" passHref>
-                <span className="text-lg cursor-pointer font-mono">Mission</span>
-              </Link>
-              <Link href="/team" passHref>
-                <span className="text-lg cursor-pointer font-mono">Team</span>
-              </Link>
-            </div>
-          </nav>
+       <Navbar />
+          
         </div>
+        
           {children}
         </main>
       </body>

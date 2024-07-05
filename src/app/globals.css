@@ -52,3 +52,26 @@
 transform: translateX(-4px);
     color: #0AFFB6;
   }
+
+
+
+
+.animate-scroll {
+    animation: scroll 60s linear infinite;
+}
+  #engineerScroller {
+    scroll-behavior: smooth;
+  }
+  
+  .scrolling {
+    animation: scroll 60s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
