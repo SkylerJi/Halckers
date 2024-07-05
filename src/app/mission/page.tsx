@@ -5,19 +5,22 @@ import BackgroundVideo from '../../../components/bgVid1';
 
 export default function Mission() {
   return (
-    <div className="mb-24 relative flex flex-col items-center justify-center overflow-hidden bg-black">
+    <div className="relative flex flex-col items-center justify-center overflow-hidden bg-black">
       {/* Background Video */}
-      <div className="fixed top-0 left-0 w-full h-screen z-0 translate-y-10percent">
+      <div className="fixed top-0 left-0 w-full z-0" style = {{height: ""}}>
       <video autoPlay muted loop playsInline id="backgroundVideo" className="w-full h-full object-cover">
       
       <source src="/assets/images/nerd_radar.mp4" type="video/mp4" />
 
 
-  </video>
+    </video>
         <div className="absolute inset-0 bg-black opacity-60"></div>
       </div>
 
       {/* Content Block 1 */}
+      <div>
+        
+      </div>
       <div className="z-10 w-screen h-screen p-24 text-center md:leading-10 text-white">
           <div className="top-1/2 left-0 w-full border-t-2 border-white"></div>
      
@@ -51,13 +54,19 @@ export default function Mission() {
           What we do
         </h1>
         <span className="font-mono text-xl md:text-2xl xl:text-5xl">
-          After <span className="font-bold">defeating</span> cyber crime once and for all, we disbanded...is what those who prey on the weak wish we did.
+          After <span className="font-bold">defeating</span> cyber crime once and for all, we disbanded...is what the evildoers of the world wish.
         </span>
         <div className="my-6"></div>
         <span className="font-mono text-xl md:text-2xl xl:text-5xl">
-          Through our <span className="font-bold">state-of-the-art</span> Integrated Mass Ecosystem Service Spanning Across Global Economies, or iMessage system, we are able to communicate effectively, efficiently, and <span className="font-bold">erratically</span>. Gotham, nay, the world <span className="font-bold">needs</span> us.
+          Through our <span className="font-bold">state-of-the-art</span> Integrated Mass Ecosystem Service Spanning Across Global Economies, or iMessage system, we are able to cover the globe. Gotham, nay, the world <span className="font-bold">needs</span> us.
         </span>
       </div>
+      <div className = "w-full  z-10" style = {{height: "20vh"}} >
+            <div className = "text-black font-9xl">
+                Hi
+            </div>
+        </div>
+
     </div>
   );
 }
