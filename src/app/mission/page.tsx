@@ -62,7 +62,7 @@ export default function Mission() {
           Through our <span className="font-bold">state-of-the-art</span> Integrated Mass Ecosystem Service Spanning Across Global Economies, or iMessage system, we are able to cover the globe. Gotham, nay, the world <span className="font-bold">needs</span> us.
         </span>
       </div>
-      <footer className="w-full bg-transparent text-white z-10 p-8" style={{height: "20vh"}}>
+      <footer className="w-full bg-transparent text-white z-10 p-8" >
         <div className="flex flex-col md:flex-row w-full justify-between h-full">
                 <div className="logo mb-4 md:mb-0">
                     {/* Replace with your actual logo */}
