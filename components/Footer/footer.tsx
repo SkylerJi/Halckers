@@ -1,14 +1,22 @@
+"use client"
 import React from 'react';
+import { usePathname } from 'next/navigation';
 import HackedText from '../HackedText';
 import Link from 'next/link';
 
 export default function Footer() {
+    const pathname = usePathname();
+
+    // If the current path is '/mission', don't render the footer
+    if (pathname === '/mission') {
+        return null;
+    }
+
     return (
-        <footer className="w-full bg-white z-10 p-8" style={{height: "20vh"}}>
-            <div className="flex w-full justify-between  h-full">
+        <footer className="w-full bg-white p-8" style={{height: "20vh"}}>
+            <div className="flex w-full justify-between h-full">
                 <div className="logo mb-4 md:mb-0">
-                    {/* Replace with your actual logo */}
-                   <HackedText />
+                    <HackedText />
                 </div>
                 
                 <div className="contact-info text-start md:text-left mb-4 md:mb-0">
@@ -25,7 +33,6 @@ export default function Footer() {
                     <Link href= "https://buy.stripe.com/7sI7wd29Y6PT5Es4gj" >
                         Finance
                     </Link>
-                    
                 </div>
                 
                 <div className="copyright text-sm text-gray-500 items-end">

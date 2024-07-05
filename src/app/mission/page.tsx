@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import BackgroundVideo from '../../../components/bgVid1';
+import HackedText from "../../../components/HackedText";
 
 export default function Mission() {
   return (
@@ -61,11 +62,35 @@ export default function Mission() {
           Through our <span className="font-bold">state-of-the-art</span> Integrated Mass Ecosystem Service Spanning Across Global Economies, or iMessage system, we are able to cover the globe. Gotham, nay, the world <span className="font-bold">needs</span> us.
         </span>
       </div>
-      <div className = "w-full  z-10" style = {{height: "20vh"}} >
-            <div className = "text-black font-9xl">
-                Hi
+      <footer className="w-full bg-transparent text-white z-10 p-8" style={{height: "20vh"}}>
+            <div className="flex w-full justify-between  h-full">
+                <div className="logo mb-4 md:mb-0">
+                    {/* Replace with your actual logo */}
+                   <HackedText />
+                </div>
+                
+                <div className="contact-info text-start md:text-left mb-4 md:mb-0">
+                    <h3 className="font-bold mb-2">Contact Us</h3>
+                    <p>Email: skylerji@gmail.com</p>
+                    <p>Phone: (636) 368-7576</p>
+                    <p>Address: Nunya</p>
+                </div>
+                <div className="contact-info flex flex-col text-start md:text-left mb-4 md:mb-0 hover:text-neutral-500">
+                    <h3 className="font-bold mb-2">Services</h3>
+                    <Link href= "https://www.shaneliu.net/">
+                        Engineering
+                    </Link>
+                    <Link href= "https://buy.stripe.com/7sI7wd29Y6PT5Es4gj" >
+                        Finance
+                    </Link>
+                    
+                </div>
+                
+                <div className="copyright text-sm text-gray-500 items-end">
+                    © {new Date().getFullYear()} Halckers LLC. All rights reserved.
+                </div>
             </div>
-        </div>
+        </footer>
 
     </div>
   );
