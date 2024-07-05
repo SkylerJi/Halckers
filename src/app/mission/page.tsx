@@ -63,7 +63,7 @@ export default function Mission() {
         </span>
       </div>
       <footer className="w-full bg-transparent text-white z-10 p-8" style={{height: "20vh"}}>
-            <div className="flex w-full justify-between  h-full">
+        <div className="flex flex-col md:flex-row w-full justify-between h-full">
                 <div className="logo mb-4 md:mb-0">
                     {/* Replace with your actual logo */}
                    <HackedText />
