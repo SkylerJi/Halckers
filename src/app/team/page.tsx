@@ -1,19 +1,22 @@
 "use client"
 import Image from "next/image";
+import ParticlesComponent from "../../../components/Particles";
 
 export default function team() {
   return (
-    <div className="mt-48 mb-16 bg-white">
-      <div className="text-black text-5xl md:text-9xl text-center font-mono my-24">
+    <div className="pt-48 pb-16 bg-black max-h-screen overflow-auto">
+      <ParticlesComponent/>
+      
+      <div className="text-white text-5xl md:text-9xl text-center font-mono my-24">
         Team
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-24 h-full w-full p-8">
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="relative h-96 border-2 border-black bg-white overflow-hidden hover-gradient-border"
+            className="relative h-96 border-2 border-white bg-white overflow-hidden hover-gradient-border"
           >
-            <div className="absolute inset-0 flex items-center justify-center bg-white opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
+            <div className="absolute inset-0 flex items-center justify-center bg-neutral-300 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
               <div className="px-4 py-2 font-mono">{member.description}</div>
             </div>
             <Image

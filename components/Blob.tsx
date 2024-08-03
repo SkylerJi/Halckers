@@ -72,8 +72,6 @@
 
 // export default Blob;
 
-
-
 "use client";
 /** @jsxImportSource @emotion/react */
 import '@emotion/react';
@@ -82,20 +80,22 @@ import React from 'react';
 
 declare module 'react' {
     interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
-      // extends React's HTMLAttributes for css prop
       css?: any;
     }
   }
 
-const rotate = keyframes`
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
+const smoothBounce = keyframes`
+  0%, 100% {
+    transform: translate(-75%, -30%) rotate(0deg);
+  }
+  25% {
+    transform: translate(-60%, -60%) rotate(90deg) scale(1.05, 1.15);
   }
   50% {
-    transform: translate(-50%, -50%) scale(1, 1.5);
+    transform: translate(-30%, -75%) rotate(180deg) scale(1.1, 1.1);
   }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
+  75% {
+    transform: translate(-60%, -60%) rotate(270deg) scale(1.15, 1.05);
   }
 `;
 
@@ -103,8 +103,8 @@ const blobStyle = css`
   filter: blur(100px);
   z-index: -1;
   background-color: white;
-  height: 50vmax;
-  width: 85vmax;
+  height: 100vmax;
+  width: 100vmax;
   aspect-ratio: 1;
   position: fixed;
   left: 50%;
@@ -112,7 +112,7 @@ const blobStyle = css`
   transform: translate(-50%, -50%);
   border-radius: 50%;
   background: linear-gradient(to right, #0a00ff, #fbff00, #fb04b4, #0a00ff, #00ffca);
-  animation: ${rotate} 5s infinite;
+  animation: ${smoothBounce} 10s ease-in-out infinite;
   opacity: 1;
 `;
 
