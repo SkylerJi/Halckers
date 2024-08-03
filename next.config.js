@@ -1,3 +1,5 @@
+//claude told me to use this for darwin compatibility issues
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     swcMinify: true,
