@@ -75,14 +75,20 @@ export default function Mission() {
                     <p>Phone: (636) 368-7576</p>
                     <p>Address: Nunya</p>
                 </div>
-                <div className="contact-info flex flex-col text-start md:text-left mb-4 md:mb-0 hover:text-neutral-500">
+                <div className="contact-info flex flex-col text-start md:text-left mb-4 md:mb-0">
                     <h3 className="font-bold mb-2">Services</h3>
+                    <div  className = "hover:text-neutral-500">
                     <Link href= "https://www.shaneliu.net/">
                         Engineering
                     </Link>
-                    <Link href= "https://buy.stripe.com/7sI7wd29Y6PT5Es4gj" >
+
+                    </div>
+                    <div  className = "hover:text-neutral-500">
+                    <Link href= "https://buy.stripe.com/7sI7wd29Y6PT5Es4gj">
                         Finance
                     </Link>
+
+                </div>
                     
                 </div>
                 
