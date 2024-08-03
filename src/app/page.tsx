@@ -105,7 +105,7 @@ export default function Home() {
             <CustomImage  src = "/assets/images/Finance_Skyler.png"
             width={imageWidth}
             height={imageHeight}  
-            alt="Skyler"/>
+            alt="inaccurate height btw(taller irl)"/>
             <CustomImage  src = "/assets/images/Finance_Skyler5.png"
             width={imageWidth}
             height={imageHeight}  
@@ -117,7 +117,7 @@ export default function Home() {
             <CustomImage  src = "/assets/images/Finance_Skyler3.png"
             width={imageWidth}
             height={imageHeight}  
-            alt="Skyler"/>
+            alt="Average networking sesh for a guy like me"/>
             <CustomImage src = "/assets/images/Lawyer_Yusuf.png"
             width={imageWidth}
             height={imageHeight}  
