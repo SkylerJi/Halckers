@@ -138,7 +138,7 @@ const particlesConfig = {
           src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
           onLoad={() => setLoaded(true)}
         />
-        <div id="particles-container" style={{ zIndex: 0, position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
+        <div id="particles-container" style={{ zIndex: 0, position: 'fixed', top: 0, left: 0, width: '100%', height: '100%' }}>
           <div id="particles-js" style={{ width: '100%', height: '100%' }}></div>
         </div>
       </>
