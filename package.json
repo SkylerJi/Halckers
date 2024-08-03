@@ -12,6 +12,7 @@
     "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@next/swc-darwin-arm64": "^14.2.5",
     "emotion": "^11.0.0",
     "next": "14.0.3",
     "react": "^18",
