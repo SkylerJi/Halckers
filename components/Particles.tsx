@@ -1,7 +1,8 @@
 "use client"
 // src/components/ParticlesComponent.tsx
-import React, { useEffect } from 'react';
-import 'particles.js';
+import React, { useEffect, useState } from 'react';
+import Script from 'next/script';
+
 
 declare global {
   interface Window {
@@ -122,17 +123,26 @@ const particlesConfig = {
   };
   
 
-const ParticlesComponent: React.FC = () => {
-  useEffect(() => {
-    window.particlesJS("particles-js", particlesConfig);
-    // ... any other logic you may have for useEffect
-  }, []);
+  const ParticlesComponent = () => {
+    const [loaded, setLoaded] = useState(false);
   
-  return (
-    <div id="particles-container" style={{ zIndex: 0, position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
-      <div id="particles-js" style={{ width: '100%', height: '100%' }}></div>
-    </div>
-  );
-};
-
-export default ParticlesComponent;
+    useEffect(() => {
+      if (loaded && window.particlesJS) {
+        window.particlesJS("particles-js", particlesConfig);
+      }
+    }, [loaded]);
+  
+    return (
+      <>
+        <Script
+          src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
+          onLoad={() => setLoaded(true)}
+        />
+        <div id="particles-container" style={{ zIndex: 0, position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
+          <div id="particles-js" style={{ width: '100%', height: '100%' }}></div>
+        </div>
+      </>
+    );
+  };
+  
+  export default ParticlesComponent;
