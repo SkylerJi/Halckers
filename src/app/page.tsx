@@ -36,7 +36,7 @@ export default function Home() {
             <p className={`text-7xl md:text-9xl font-mono font-black ${styles.animatedText}`}>
               HALCKERS
             </p>
-          </div> z-10
+          </div> 
           <div className="absolute rounded-xl text-center pt-2 pr-2" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'transparent' }}>
             <p className={`text-7xl md:text-9xl font-mono font-black text-white`}>
               HALCKERS
