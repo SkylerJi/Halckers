@@ -25,11 +25,11 @@ export default function HalckersByChoice(){
         width={imageWidth}
         height={imageHeight}
         alt="halckers"/>
-        <CustomImage 
+        {/* <CustomImage 
         src = "/assets/images/halckers10.png"
         width={imageWidth}
         height={imageHeight}
-        alt="halckers"/>
+        alt="halckers"/> */}
         <CustomImage 
         src = "/assets/images/Halckers12.png"
         width={imageWidth}
