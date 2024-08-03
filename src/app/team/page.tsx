@@ -122,7 +122,7 @@ const teamMembers = [
     title: "CBO",
     imageSrc: "/assets/images/Headshot_Shane1.png",
     description:
-      "As the Chief Bot Officer, the Shane Brain runs on the world's most advanced Neural Net. His computer vision is what Tesla strives to acheive. CAVEAT: his runtime is Rayo(N).",
+      "As the Chief Bot Officer, the Shane Brain is a neural net with 0 hidden layers. On weekends, he goes to the tesla factory, where they plug into the Sh(brain) to train their FSD.",
   },
   {
     name: "Skyler",
