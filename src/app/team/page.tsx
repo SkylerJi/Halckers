@@ -4,7 +4,7 @@ import ParticlesComponent from "../../../components/Particles";
 
 export default function team() {
   return (
-    <div className="pt-48 pb-16 bg-black max-h-screen overflow-auto">
+    <div className="pt-48 pb-16 bg-black">
       <ParticlesComponent/>
       
       <div className="text-white text-5xl md:text-9xl text-center font-mono my-24">
