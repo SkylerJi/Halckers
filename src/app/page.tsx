@@ -48,7 +48,7 @@ export default function Home() {
  
       <div
 
-        className="my-72 w-screen flex justify-center items-center font-black text-6xl md:text-9xl text-black font-mono relative"
+        className="py-72 w-screen flex justify-center items-center font-black text-6xl md:text-9xl text-black font-mono relative"
       >
         <div className="absolute rounded-xl text-center pt-1 pb-1 px-4 z-20" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'transparent' }}>
             <p className={`text-7xl md:text-9xl font-mono font-black text-white cursor-pointer ${showArse && styles.animatedText}`} onMouseEnter = {() => setShowArse(true)} onMouseLeave={() => setShowArse(false)}>
