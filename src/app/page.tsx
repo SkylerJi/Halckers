@@ -10,13 +10,14 @@ import { CustomImage } from '../../components/MainPage/imageStyling';
 import DumbPpl from '../../components/MainPage/DumbPpl';
 import Engineers from '../../components/MainPage/Engineers';
 import Doctors from '../../components/MainPage/Doctors';
+import { useRouter } from 'next/navigation';
 
 
 export default function Home() {
   const imageHeight = 500
   const imageWidth = 300
   const [showArse, setShowArse] = useState<boolean>(false);
-
+  const router = useRouter()
   return (
     
 
@@ -51,12 +52,16 @@ export default function Home() {
         className="py-72 w-screen flex justify-center items-center font-black text-6xl md:text-9xl text-black font-mono relative"
       >
         <div className="absolute rounded-xl text-center pt-1 pb-1 px-4 z-20" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'transparent' }}>
-            <p className={`text-7xl md:text-9xl font-mono font-black text-white cursor-pointer ${showArse && styles.animatedText}`} onMouseEnter = {() => setShowArse(true)} onMouseLeave={() => setShowArse(false)}>
+            <p className={`text-7xl md:text-9xl font-mono font-black text-white cursor-pointer ${showArse && styles.animatedText}`} 
+            onMouseEnter = {() => setShowArse(true)} onMouseLeave={() => setShowArse(false)}
+            onClick = {() => router.push('/whyyouclick')}>
               We Ar{showArse && <span>s</span>}e
             </p>
           </div> 
           <div className="absolute rounded-xl text-center pb-2 pl-2" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'transparent' }}>
-            <p className={`text-7xl md:text-9xl font-mono font-black cursor-pointer ${showArse ? "text-white" : "text-black"}`} onMouseEnter = {() => setShowArse(true)} onMouseLeave={() => setShowArse(false)}>
+            <p className={`text-7xl md:text-9xl font-mono font-black cursor-pointer ${showArse ? "text-white" : "text-black"}`} 
+            onMouseEnter = {() => setShowArse(true)} onMouseLeave={() => setShowArse(false)}
+            onClick = {() => router.push('/whyyouclick')}>
               We Ar{showArse && <span>s</span>}e
             </p>
           </div>
@@ -89,7 +94,7 @@ export default function Home() {
 
           </div>
        
-     <div className = "flex flex-row overflow-x-auto space-x-3">
+     <div className = "flex flex-row overflow-x-auto space-x-4 px-4">
      <div className="flex-none flex space-x-3">
             <CustomImage src = "/assets/images/Finance_Dean.png"
             width={imageWidth}

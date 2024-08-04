@@ -5,7 +5,7 @@ export default function Engineers(){
     const imageWidth = 300
     
     return (
-        <div className = "flex flex-row overflow-x-auto space-x-3">
+        <div className = "flex flex-row overflow-x-auto space-x-4 px-4">
             <div className="flex-none flex space-x-3">
             
             <CustomImage src = "/assets/images/Engineer_Shane.png"

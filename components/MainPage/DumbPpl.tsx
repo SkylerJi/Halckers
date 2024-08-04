@@ -3,7 +3,7 @@ export default function DumbPpl(){
     const imageHeight = 400
     const imageWidth = 250
     return (
-        <div className = "flex flex-row overflow-x-auto space-x-3">
+        <div className = "flex flex-row overflow-x-auto space-x-4 px-4">
             
             <CustomImage src = "/assets/images/Finance_Dean.png"
             width={imageWidth}
