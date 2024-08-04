@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import Head from 'next/head';
-import React from "react"
+import React, { useState } from "react"
 import styles from './styles.module.css';
 import Blob from '../../components/Blob';
 import HalckersByChoice from '../../components/MainPage/HalckersByChoice';
@@ -15,6 +15,7 @@ import Doctors from '../../components/MainPage/Doctors';
 export default function Home() {
   const imageHeight = 500
   const imageWidth = 300
+  const [showArse, setShowArse] = useState<boolean>(false);
 
   return (
     
@@ -47,14 +48,23 @@ export default function Home() {
  
       <div
 
-        className="my-24 w-screen flex justify-center items-center font-black text-6xl md:text-9xl text-white font-mono"
+        className="my-72 w-screen flex justify-center items-center font-black text-6xl md:text-9xl text-black font-mono relative"
       >
-        WE ARE
+        <div className="absolute rounded-xl text-center pt-1 pb-1 px-4 z-20" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'transparent' }}>
+            <p className={`text-7xl md:text-9xl font-mono font-black text-white cursor-pointer ${showArse && styles.animatedText}`} onMouseEnter = {() => setShowArse(true)} onMouseLeave={() => setShowArse(false)}>
+              We Ar{showArse && <span>s</span>}e
+            </p>
+          </div> 
+          <div className="absolute rounded-xl text-center pb-2 pl-2" style={{ top: '50%', transform: 'translateY(-50%)', backgroundColor: 'transparent' }}>
+            <p className={`text-7xl md:text-9xl font-mono font-black cursor-pointer ${showArse ? "text-white" : "text-black"}`} onMouseEnter = {() => setShowArse(true)} onMouseLeave={() => setShowArse(false)}>
+              We Ar{showArse && <span>s</span>}e
+            </p>
+          </div>
       </div>
 
       <div className = "flex flex-col justify-center items-center text-white text-5xl">
-      <div className = "relative w-full">
-        <div className = "flex flex-row justify-center mb-8 text-5xl md:text-8xl font-bold font-mono text-center ">
+      <div className = "relative w-full pb-56">
+        <div className = "flex flex-row justify-center mb-8 text-5xl md:text-8xl font-bold font-mono text-center relative">
             Doctors
 
           </div>
@@ -65,7 +75,7 @@ export default function Home() {
 
         </div>
      
-        <div className = "relative w-full">
+        <div className = "relative w-full pb-56">
         <div className = "flex flex-row justify-center text-center mt-10 mb-8 text-5xl md:text-8xl font-bold font-mono">
             Engineers
 
@@ -73,7 +83,7 @@ export default function Home() {
           <Engineers />
         </div>
       
-        <div className = "relative w-full">
+        <div className = "relative w-full pb-56">
           <div className = "flex flex-row mt-10 mb-8 text-4xl md:text-8xl font-bold font-mono justify-center text-center items-center space-x-3">
             Financial Analysts, Lawyers, Global Ambassadors
 
@@ -146,7 +156,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div className = "relative w-full">
+        <div className = "relative w-full pb-56">
         <div className = "flex flex-row  text-5xl md:text-8xl text-center font-mono font-bold mt-32 mb-12 justify-center">
             Acquaintances by chance
           </div>
@@ -156,7 +166,7 @@ export default function Home() {
 
         </div>
 
-        <div className = "relative w-full">
+        <div className = "relative w-full pb-56">
         <div className="flex flex-row text-7xl md:text-9xl text-center font-black font-dancing-script mt-24 mb-12 justify-center">
           Halckers by choice
         </div>
