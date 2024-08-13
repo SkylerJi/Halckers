@@ -11,6 +11,8 @@ import DumbPpl from '../../components/MainPage/DumbPpl';
 import Engineers from '../../components/MainPage/Engineers';
 import Doctors from '../../components/MainPage/Doctors';
 import { useRouter } from 'next/navigation';
+import { Globe } from '../../components/Globe/globeUi';
+import { GlobeDemo } from '../../components/Globe/globe';
 
 
 export default function Home() {
@@ -179,6 +181,18 @@ export default function Home() {
          
           </div>
         </div>
+   {/* <div className="relative ">
+ 
+    <GlobeDemo />
+   </div> */}
+
+
+ 
+
+
+      
+
+        
       </div>
     </div>
 
